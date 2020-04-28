@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import Logo from './componentes/template/Logo';
 import Nav from './componentes/template/Nav';
-import Main from './componentes/template/Main';
+import Home from './componentes/home/Home';
 import Footer from './componentes/template/Footer';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className='App'>
       <Logo />
       <Nav />
-      <Main icon='home' title='ìnicio' subtitle='Segundo Projeto' />
+      <Home />
       <Footer />
     </div>
   );
